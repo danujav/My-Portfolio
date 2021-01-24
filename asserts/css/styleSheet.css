@@ -28,6 +28,8 @@ html {
     height: 100vh;
     background-color: black;
 }
+
+    /*navigation bar*/
 .portfolio{
     color: white;
 }
@@ -42,14 +44,39 @@ html {
     margin-top: 30px;
     margin-left: 20px;
 }
+
+.active_nav {
+    background-color: #ff4757;
+    border-radius: 10px;
+    padding: 8px;
+}
+.navigation ul li:nth-child(1) a{
+    color: white;
+}
+
 .navigation ul li a{
     text-decoration: none;
     color: white;
     font-weight: bold;
     font: 20px 'Ubuntu', sans-serif;
     padding: 8px;
+    transition: 0.6s ease;
+    border-radius: 10px;
 }
 .navigation ul li a:hover{
-    background-color: #FFC0CB;
-    color: black;
+    background-color: #ff4757;
+    color: white;
+}
+.portfolio{
+    color: white;
+    padding: 10px;
+    margin: 8px;
+    font-size: 55px;
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 5%;
+}
+.portfolio span{
+    color: #ff4757;
 }
