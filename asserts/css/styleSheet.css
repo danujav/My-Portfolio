@@ -30,9 +30,19 @@ html {
 }
 
     /*navigation bar*/
+/*.navigation{
+    background-color: #ced6e0;
+    height: 12%;
+    opacity: 0.5;
+}*/
+
 .portfolio{
     color: white;
 }
+.portfolio span{
+    color: #ff4757;
+}
+
 .navigation ul{
     flex: 1;
     text-align: right;
@@ -74,9 +84,45 @@ html {
     font-size: 55px;
     display: inline-block;
     position: absolute;
-    top: 5px;
+    top: 0;
     left: 5%;
 }
-.portfolio span{
+
+
+    /*aside*/
+.sidetext{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    font: 25px 'Ubuntu', sans-serif;
+}
+.developer span{
     color: #ff4757;
+    font: 50px 'Ubuntu', sans-serif;
+}
+.myName{
+    font: 50px 'Ubuntu', sans-serif;
+    font-weight: bolder;
+}
+.sidetext h2{
+    font: 40px 'Ubuntu', sans-serif;
+}
+.button {
+    background-color: #ff4757;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 14%;
+    position: absolute;
+    left: 0;
+    top: 264px;
+}
+.button:hover{
+    cursor: pointer;
 }
