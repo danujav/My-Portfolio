@@ -109,6 +109,12 @@ hr.rounded {
     color: #ff4757;
     font: 50px 'Ubuntu', sans-serif;
 }
+.sidetext h1{
+    font-size: 2em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
 .myName{
     font: 50px 'Ubuntu', sans-serif;
     font-weight: bolder;
@@ -183,10 +189,41 @@ hr.rounded {
     cursor: pointer;
     line-height: 1.5;
     font: 700 1.2rem 'Ubuntu', sans-serif;
-    padding: 1em 2em;
+    padding: 0.5em 1em;
     letter-spacing: 0.05rem;
 }
 .btn:focus {
     outline: 2px dotted #ff4757;
 }
+/*.call{
+    display: inline-block;
+    position: absolute;
+    bottom: 76px;
+    left: 71px;
+}*/px
 
+.social img{
+    position: absolute;
+    bottom: 76px;
+    left: 5%;
+    display: inline-block;
+}
+div:nth-child(3){
+    position: absolute;
+    bottom: 76px;
+    left: 5%;
+}
+div:nth-child(3) > h2:nth-child(2){
+    color: white;
+    position: absolute;
+    bottom: 27px;
+    left: 15px;
+    font-size: 17px;
+}
+div:nth-child(3) > p:nth-child(3){
+    color: white;
+    /*position: absolute;*/
+    bottom: 20px;
+    left: 15px;
+    font-size: 17px;
+}
