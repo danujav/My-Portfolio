@@ -170,7 +170,6 @@ hr.rounded {
     color: white;
 }
 .draw-border:hover::before, .draw-border:hover::after {
-    /*border-color: #ffe593;*/
     border-color: #ff4757;
     transition: border-color 0s, width 0.25s, height 0.25s;
     width: 100%;
@@ -195,23 +194,18 @@ hr.rounded {
 .btn:focus {
     outline: 2px dotted #ff4757;
 }
-/*.call{
-    display: inline-block;
-    position: absolute;
-    bottom: 76px;
-    left: 71px;
-}*/px
 
-.social img{
+.social img:nth-child(1){
     position: absolute;
-    bottom: 76px;
-    left: 5%;
+    bottom: 31px;
+    left: 0%;
     display: inline-block;
 }
 div:nth-child(3){
     position: absolute;
     bottom: 76px;
     left: 5%;
+
 }
 div:nth-child(3) > h2:nth-child(2){
     color: white;
@@ -222,8 +216,48 @@ div:nth-child(3) > h2:nth-child(2){
 }
 div:nth-child(3) > p:nth-child(3){
     color: white;
-    /*position: absolute;*/
     bottom: 20px;
     left: 15px;
     font-size: 17px;
+}
+.social img:nth-child(4){
+    width: 28px;
+    height: 27px;
+    position: absolute;
+    bottom: -49px;
+    left: 0%;
+    display: inline-block;
+}
+
+.social img:nth-child(5){
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: -51px;
+    left: 26%;
+    display: inline-block;
+}
+.social img:nth-child(6) {
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    bottom: -51px;
+    left: 52%;
+    display: inline-block;
+}
+.social img:nth-child(7){
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    bottom: -46px;
+    left: 82%;
+    display: inline-block;
+}
+.smoke_img{
+    position: absolute;
+    top: 50px;
+}
+.smoke_img img{
+    width: 100px;
+    height: 100px;
 }
