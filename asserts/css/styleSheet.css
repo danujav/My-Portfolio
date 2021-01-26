@@ -280,8 +280,43 @@ div:nth-child(3) > p:nth-child(3){
     opacity: 0.5;
     /*z-index: -1;*/
 }
-
 .navigation{
     z-index: 900;
     position: relative;
+}
+
+ /*about me section*/
+.about{
+    height: 100vh;
+    width: 100%;
+}
+.about h1{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 50px;
+    padding: 27px;
+}
+.about h2{
+    font-size: 27px;
+    padding: 1px;
+    color: #ff4757;
+    position: relative;
+    top: -11%;
+    display: inline-block;
+    left: 43.8%;
+    right: -43.8%;
+}
+.about aside{
+    width: 25%;
+    height: 362px;
+    display: inline-block;
+    position: absolute;
+    top: 771px;
+    left: 89px;
+
+}
+.about aside img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
