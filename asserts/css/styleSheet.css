@@ -311,7 +311,7 @@ div:nth-child(3) > p:nth-child(3){
     height: 362px;
     display: inline-block;
     position: absolute;
-    top: 771px;
+    top: 801px;
     left: 89px;
 
 }
@@ -319,4 +319,12 @@ div:nth-child(3) > p:nth-child(3){
     width: 100%;
     height: 100%;
     position: absolute;
+}
+.article_about_me{
+    display: inline-block;
+    position: absolute;
+    right: 77px;
+    font-size: 33px;
+    font-weight: 300;
+
 }
