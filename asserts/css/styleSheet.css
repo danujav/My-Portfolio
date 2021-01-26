@@ -278,4 +278,10 @@ div:nth-child(3) > p:nth-child(3){
     bottom: 0;
     position: absolute;
     opacity: 0.5;
+    /*z-index: -1;*/
+}
+
+.navigation{
+    z-index: 900;
+    position: relative;
 }
