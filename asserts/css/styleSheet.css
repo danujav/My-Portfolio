@@ -28,17 +28,16 @@ html {
     height: 100vh;
     background-color: black;
 }
-
-    /*navigation bar*/
-/*.navigation{
-    background-color: #ced6e0;
-    height: 12%;
-    opacity: 0.5;
-}*/
-
-.portfolio{
-    color: white;
+.navigation{
+    z-index: 900;
+    position: fixed;
+    width: 100%;
+    background: white;
+    height: 64px;
 }
+/*.portfolio{
+    color: black;
+}*/
 .portfolio span{
     color: #ff4757;
 }
@@ -51,7 +50,7 @@ html {
 .navigation ul li{
     list-style: none;
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 12px;
     margin-left: 20px;
 }
 
@@ -66,7 +65,7 @@ html {
 
 .navigation ul li a{
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: bold;
     font: 20px 'Ubuntu', sans-serif;
     padding: 8px;
@@ -78,13 +77,13 @@ html {
     color: white;
 }
 .portfolio{
-    color: white;
+    color: black;
     padding: 10px;
     margin: 8px;
     font-size: 55px;
     display: inline-block;
     position: absolute;
-    top: 0;
+    top: -15px;
     left: 3.5%;
 }
 hr.rounded {
@@ -280,10 +279,6 @@ div:nth-child(3) > p:nth-child(3){
     opacity: 0.5;
     /*z-index: -1;*/
 }
-.navigation{
-    z-index: 900;
-    position: relative;
-}
 
  /*about me section*/
 .about{
@@ -326,45 +321,19 @@ div:nth-child(3) > p:nth-child(3){
     display: inline-block;
     position: absolute;
     right: 157px;
-    font-size: 30px;
-    font-weight: 300;
+    font-size: 25px;
+    font-weight: inherit;
     font-family: 'Ubuntu', sans-serif;
-
 }
 .article_about_me p{
     padding-top: 28px;
     padding-bottom: 1px;
 }
-    /*for the article button font */
-/*
-.article_about_me button:nth-child(4) {
-    box-shadow: inset 0 0 0 4px #58afd1;
-    color: black;
-    transition: color 0.25s 0.0833333333s;
-    position: relative;
-}
-.article_about_me button:nth-child(4):hover {
-    color: black;
-}*/
-
 *,
 *::before,
 *::after {
     box-sizing: inherit;
 }
-
-/*body {
-    font-size: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-}*/
-
-/*body {
-    background: #2f2f2f;
-}*/
-
 .corner-button {
     font-family: 'Ubuntu', sans-serif;
     letter-spacing: 0.02rem;
@@ -372,13 +341,15 @@ div:nth-child(3) > p:nth-child(3){
     background: whitesmoke;
     border: 0.5rem solid currentColor;
     padding: -0.5rem 1rem;
-    font-size: 2.2rem;
-    color: #58afd1;
+    font-size: 1.5rem;
+    color: #ff4757;
     position: relative;
     transition: color 0.3s;
+    line-height: 1.30;
+    border-radius: 10px;
 }
 .corner-button:hover {
-    color: #ff4757;
+    color: #58afd1;
 }
 .corner-button:hover::before {
     width: 0;
@@ -399,18 +370,64 @@ div:nth-child(3) > p:nth-child(3){
     background: #2f2f2f;
     z-index: 1;
     transition: all 0.3s;
+    border-radius: 30px;
 }
 .corner-button::before {
-    width: calc(100% - 3rem);
+    width: calc(100% - -1rem);
     height: calc(101% + 1rem);
     top: -0.5rem;
     left: 50%;
     transform: translateX(-50%);
 }
 .corner-button::after {
+    margin-top: 10px;
     height: calc(100% - 3rem);
     width: calc(101% + 1rem);
     left: -0.5rem;
     top: 50%;
     transform: translateY(-50%);
+}
+
+  /*article bold words*/
+.article_about_me p:nth-child(1) span:nth-child(1){
+    font-weight: bolder;
+    font-size: 40px;
+}
+.article_about_me p:nth-child(1) span:nth-child(2){
+    color: #ff4757;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.article_about_me p:nth-child(2) span:nth-child(1){
+    font-weight: bolder;
+    font-size: 25px;
+}
+.article_about_me p:nth-child(2) span:nth-child(3){
+    font-weight: bolder;
+    font-size: 25px;
+}
+.article_about_me p:nth-child(3) span{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+    /*services*/
+.services{
+    height: 100vh;
+    background-color: black;
+}
+.services h1{
+    text-align: center;
+    color: white;
+    padding: 22px;
+    font-size: 50px;
+}
+.services h2{
+    font-size: 27px;
+    padding: 1px;
+    color: #ff4757;
+    position: relative;
+    top: -10%;
+    display: inline-block;
+    left: 41%;
 }
