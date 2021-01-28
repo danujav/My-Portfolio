@@ -438,10 +438,14 @@ div:nth-child(3) > p:nth-child(3){
     top: -2%;
 }
 .services section:nth-child(3) div:nth-child(1){
+     perspective: 3000px;
     width: 30%;
-    height: 100%;
     position: relative;
-    left: 25px;
+    left: 17%;
+    height: 86%;
+    top: 43%;
+    transform: translate(-50%, -50%);
+    transform-style: preserve-3d;
 }
 .services section:nth-child(3) div:nth-child(2){
     width: 30%;
@@ -449,6 +453,7 @@ div:nth-child(3) > p:nth-child(3){
     position: absolute;
     left: 34.8%;
     top: 0;
+    cursor: pointer;
 }
 .services section:nth-child(3) div:nth-child(3){
     width: 30%;
@@ -456,6 +461,7 @@ div:nth-child(3) > p:nth-child(3){
     position: absolute;
     left: 67.6%;
     top: 0;
+    cursor: pointer;
 }
 .services section:nth-child(3) div:nth-child(1) img{
     width: 100%;
@@ -482,7 +488,7 @@ div:nth-child(3) > p:nth-child(3){
     color: white;
     font-size: 34px;
     position: absolute;
-    right: -15px;
+    right: -16px;
     left: 0;
     margin: auto;
     z-index: 1;
@@ -558,4 +564,107 @@ div:nth-child(3) > p:nth-child(3){
     font-weight: bolder;
     background-color: lightgreen;
     font-size: 30px;
+}
+
+
+
+    /*photo effect*/
+.services section:nth-child(3) div:nth-child(1) {
+    perspective: 3000px;
+    width: 31%;
+    position: relative;
+    left: 17%;
+    height: 85%;
+    top: 42%;
+    transform: translate(-50%, -50%);
+    transform-style: preserve-3d;
+}
+.services section:nth-child(3) div:nth-child(1) img {
+    transform: rotateX(70deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
+    box-shadow: -80px 60px 15px 5px rgba(0,0,0,0.4);
+    transition: all .4s;
+    transform-style: preserve-3d;
+}
+.services section:nth-child(3) div:nth-child(1):hover img {
+    transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+}
+
+
+.services section:nth-child(3) div:nth-child(1) p {
+    transform: rotateX(70deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
+    box-shadow: -80px 60px 15px 5px rgba(0,0,0,0.4);
+    transition: all .4s;
+    transform-style: preserve-3d;
+}
+.services section:nth-child(3) div:nth-child(1):hover p {
+    transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+}
+ /*second service*/
+.services section:nth-child(3) div:nth-child(2) {
+    perspective: 3000px;
+    width: 31%;
+    position: relative;
+    left: 50.2%;
+    height: 85%;
+    top: -43%;
+    transform: translate(-50%, -50%);
+    transform-style: preserve-3d;
+}
+.services section:nth-child(3) div:nth-child(2) img {
+    transform: rotateX(70deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
+    box-shadow: -80px 60px 15px 5px rgba(0,0,0,0.4);
+    transition: all .4s;
+    transform-style: preserve-3d;
+}
+.services section:nth-child(3) div:nth-child(2):hover img {
+    transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+}
+
+
+.services section:nth-child(3) div:nth-child(2) p {
+    transform: rotateX(70deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
+    box-shadow: -80px 60px 15px 5px rgba(0,0,0,0.4);
+    transition: all .4s;
+    transform-style: preserve-3d;
+}
+.services section:nth-child(3) div:nth-child(2):hover p {
+    transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+}
+
+    /*third service*/
+.services section:nth-child(3) div:nth-child(3) {
+    perspective: 3000px;
+    width: 31%;
+    position: relative;
+    left: 83%;
+    height: 85%;
+    top: -128%;
+    transform: translate(-50%, -50%);
+    transform-style: preserve-3d;
+}
+.services section:nth-child(3) div:nth-child(3) img {
+    transform: rotateX(70deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
+    box-shadow: -80px 60px 15px 5px rgba(0,0,0,0.4);
+    transition: all .4s;
+    transform-style: preserve-3d;
+}
+.services section:nth-child(3) div:nth-child(3):hover img {
+    transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+}
+
+
+.services section:nth-child(3) div:nth-child(3) p {
+    transform: rotateX(70deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
+    box-shadow: -80px 60px 15px 5px rgba(0,0,0,0.4);
+    transition: all .4s;
+    transform-style: preserve-3d;
+}
+.services section:nth-child(3) div:nth-child(3):hover p {
+    transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
 }
