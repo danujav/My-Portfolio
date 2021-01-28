@@ -508,3 +508,54 @@ div:nth-child(3) > p:nth-child(3){
     z-index: 1;
     background-color: brown;
 }
+.services section:nth-child(3) div:nth-child(1) p{
+    z-index: 1;
+    color: white;
+    left: 64px;
+    right: 0;
+    bottom: 0;
+    top: 130px;
+    margin: auto;
+    font-size: 25px;
+    position: absolute;
+}
+.services section:nth-child(3) div:nth-child(1) p span{
+    color: black;
+    font-weight: bolder;
+    background-color: lightgreen;
+    font-size: 30px;
+}
+.services section:nth-child(3) div:nth-child(2) p{
+    z-index: 1;
+    color: white;
+    left: 64px;
+    right: 0;
+    bottom: 0;
+    top: 161px;
+    margin: auto;
+    font-size: 25px;
+    position: absolute;
+}
+.services section:nth-child(3) div:nth-child(2) p span{
+    color: black;
+    font-weight: bolder;
+    background-color: lightgreen;
+    font-size: 30px;
+}
+.services section:nth-child(3) div:nth-child(3) p{
+    z-index: 1;
+    color: white;
+    left: 64px;
+    right: 0;
+    bottom: 0;
+    top: 161px;
+    margin: auto;
+    font-size: 25px;
+    position: absolute;
+}
+.services section:nth-child(3) div:nth-child(3) p span{
+    color: black;
+    font-weight: bolder;
+    background-color: lightgreen;
+    font-size: 30px;
+}
