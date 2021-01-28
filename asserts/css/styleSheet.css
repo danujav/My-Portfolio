@@ -6,15 +6,16 @@ html {
     width: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: black;
+
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: #ff4757;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: #d11d53;
 }
 
 *{
@@ -35,13 +36,9 @@ html {
     background: white;
     height: 64px;
 }
-/*.portfolio{
-    color: black;
-}*/
 .portfolio span{
     color: #ff4757;
 }
-
 .navigation ul{
     flex: 1;
     text-align: right;
@@ -53,7 +50,6 @@ html {
     margin-top: 12px;
     margin-left: 20px;
 }
-
 .active_nav {
     background-color: #ff4757;
     border-radius: 10px;
@@ -62,7 +58,6 @@ html {
 .navigation ul li:nth-child(1) a{
     color: white;
 }
-
 .navigation ul li a{
     text-decoration: none;
     color: black;
@@ -94,8 +89,6 @@ hr.rounded {
     left: 5%;font-family: 'Ubuntu', sans-serif;
     top: 15%;
 }
-
-
     /*aside*/
 .sidetext{
     color: white;
@@ -139,7 +132,6 @@ hr.rounded {
 .button:hover{
     cursor: pointer;
 }
-
 .draw-border {
     box-shadow: inset 0 0 0 4px #58afd1;
     color: white;
@@ -180,7 +172,6 @@ hr.rounded {
 .draw-border:hover::after {
     transition-delay: 0s, 0.25s, 0s;
 }
-
 .btn {
     background: none;
     border: none;
@@ -193,7 +184,6 @@ hr.rounded {
 .btn:focus {
     outline: 2px dotted #ff4757;
 }
-
 .social img:nth-child(1){
     position: absolute;
     bottom: 31px;
@@ -227,7 +217,6 @@ div:nth-child(3) > p:nth-child(3){
     left: 0%;
     display: inline-block;
 }
-
 .social img:nth-child(5){
     width: 30px;
     height: 30px;
@@ -261,8 +250,7 @@ div:nth-child(3) > p:nth-child(3){
     height: 100px;
 }
 
-    /*header_my_phot*/
-
+    /*header_my_photo*/
 .photo_side{
     position: absolute;
     height: 100vh;
@@ -566,9 +554,7 @@ div:nth-child(3) > p:nth-child(3){
     font-size: 30px;
 }
 
-
-
-    /*photo effect*/
+    /*first photo effect service*/
 .services section:nth-child(3) div:nth-child(1) {
     perspective: 3000px;
     width: 31%;
@@ -589,8 +575,6 @@ div:nth-child(3) > p:nth-child(3){
     transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
     box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
 }
-
-
 .services section:nth-child(3) div:nth-child(1) p {
     transform: rotateX(70deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
     box-shadow: -80px 60px 15px 5px rgba(0,0,0,0.4);
@@ -601,7 +585,7 @@ div:nth-child(3) > p:nth-child(3){
     transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
     box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
 }
- /*second service*/
+    /*second service*/
 .services section:nth-child(3) div:nth-child(2) {
     perspective: 3000px;
     width: 31%;
@@ -656,8 +640,6 @@ div:nth-child(3) > p:nth-child(3){
     transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
     box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
 }
-
-
 .services section:nth-child(3) div:nth-child(3) p {
     transform: rotateX(70deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
     box-shadow: -80px 60px 15px 5px rgba(0,0,0,0.4);
@@ -667,4 +649,57 @@ div:nth-child(3) > p:nth-child(3){
 .services section:nth-child(3) div:nth-child(3):hover p {
     transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
     box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+}
+
+    /*My Skills*/
+.skills {
+    height: 90vh;
+}
+.skills h1{
+    text-align: center;
+    font-size: 50px;
+}
+.skills h2{
+    font-size: 27px;
+    padding: 1px;
+    color: #ff4757;
+    position: absolute;
+    top: 1942px;
+    display: inline-block;
+    left: 42.5%;
+}
+.skills aside:nth-child(3){
+    /*background-color: green;*/
+    width: 41%;
+    height: 75%;
+    display: inline-block;
+    left: 68px;
+    top: 22px;
+    position: relative;
+}
+.skills aside:nth-child(3) h1{
+    margin: 11px;
+    font-size: 32px;
+    position: absolute;
+    left: -11px;
+}
+.skills aside:nth-child(3) p:nth-child(2){
+    font-size: 24px;
+    margin-top: 80px;
+}
+.skills aside:nth-child(3) p:nth-child(3){
+    font-size: 24px;
+    margin-top: 80px;
+}
+.skills aside:nth-child(3) p:nth-child(2) span:nth-child(1){
+    font-weight: bolder;
+    font-size: 30px;
+    background-color: #ff4757;
+    border-radius: 8px;
+}
+#javaScript{
+    font-weight: bolder;
+    font-size: 24px;
+    background-color: #58afd1;
+    border-radius: 8px;
 }
