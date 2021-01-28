@@ -670,8 +670,8 @@ div:nth-child(3) > p:nth-child(3){
 }
 .skills aside:nth-child(3){
     /*background-color: green;*/
-    width: 41%;
-    height: 75%;
+    width: 45%;
+    height: 144%;
     display: inline-block;
     left: 68px;
     top: 22px;
@@ -683,23 +683,109 @@ div:nth-child(3) > p:nth-child(3){
     position: absolute;
     left: -11px;
 }
-.skills aside:nth-child(3) p:nth-child(2){
+.skills aside:nth-child(3) p{
     font-size: 24px;
     margin-top: 80px;
+    margin-bottom: -44px;
+    font-weight: 300;
 }
-.skills aside:nth-child(3) p:nth-child(3){
-    font-size: 24px;
-    margin-top: 80px;
+
+.analytic_side{
+    width: 522px;
+    height: 210px;
+    display: inline-block;
+    position: relative;
+    top: -85%;
+    right: -70px;
 }
-.skills aside:nth-child(3) p:nth-child(2) span:nth-child(1){
-    font-weight: bolder;
-    font-size: 30px;
+
+
+dl {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 100%;
+    max-width: 700px;
+    position: relative;
+    padding: 20px;
+}
+
+dt {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 100%;
+    max-width: 700px;
+    position: relative;
+    top: -33px;
+    padding: 20px;
+}
+
+.text {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 130px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    justify-content: flex-end;
+}
+
+.percentage {
+    font-size: 0.8em;
+    line-height: 1;
+    text-transform: uppercase;
+    width: 100%;
+    height: 40px;
+    margin-left: 130px;
+    background: repeating-linear-gradient(to right, #ddd, #ddd 1px, #fff 1px, #fff 5%);
+}
+.percentage:after {
+    content: "";
+    display: block;
+    background-color: #3d9970;
+    width: 50px;
+    margin-bottom: 10px;
+    height: 90%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.percentage:hover:after, .percentage:focus:after {
     background-color: #ff4757;
-    border-radius: 8px;
 }
-#javaScript{
-    font-weight: bolder;
-    font-size: 24px;
-    background-color: #58afd1;
-    border-radius: 8px;
+
+.percentage-1:after {
+    width: 95%;
+    background-color: #008000;
 }
+
+.percentage-2:after {
+    width: 85%;
+    background-color: #7FFFD4;
+}
+
+.percentage-3:after {
+    width: 90%;
+    background-color: #8A2BE2;
+}
+
+.percentage-4:after {
+    width: 90%;
+    background-color: #FFC0CB;
+}
+
+.percentage-5:after {
+    width: 85%;
+    background-color: #FF4500;
+}
+
+.percentage-6:after {
+    width: 75%;
+    background-color: #0000FF;
+}
+
