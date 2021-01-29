@@ -653,7 +653,7 @@ div:nth-child(3) > p:nth-child(3){
 
     /*My Skills*/
 .skills {
-    height: 90vh;
+    height: 145vh;
 }
 .skills h1{
     text-align: center;
@@ -695,11 +695,11 @@ div:nth-child(3) > p:nth-child(3){
     height: 210px;
     display: inline-block;
     position: relative;
-    top: -85%;
+    top: -58%;
     right: -70px;
 }
 
-
+ /*chart*/
 dl {
     display: flex;
     background-color: white;
@@ -789,3 +789,81 @@ dt {
     background-color: #0000FF;
 }
 
+    /*projects*/
+.projects{
+    background-color: black;
+    height: 150vh;
+    width: 100%;
+}
+.projects h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding: 25px;
+}
+.projects h2{
+    font-size: 27px;
+    padding: 1px;
+    color: #ff4757;
+    position: relative;
+    top: -60px;
+    display: inline-block;
+    left: 41%;
+}
+.projects div{
+    display: inline-block;
+    position: absolute;
+}
+.projects div:nth-child(3){
+    width: 25%;
+    height: 33.5%;
+    background-color: rebeccapurple;
+    position: relative;
+    top: 0;
+    left: -168px;
+}
+.projects div:nth-child(4){
+    width: 25%;
+    height: 33.5%;
+    background-color: #ff4757;
+    /* bottom: 0; */
+    right: 293px;
+    position: relative;
+    top: 44%;
+    left: -37.6%;
+}
+.projects div:nth-child(5){
+    width: 25%;
+    height: 33.5%;
+    background-color: #FFC0CB;
+    position: relative;
+    top: 44%;
+    left: -34%;
+}
+.projects div:nth-child(6){
+    width: 25%;
+    height: 33.5%;
+    background-color: #7FFFD4;
+    position: relative;
+    top: -34.2%;
+    /* size: ledger; */
+    left: 34%;
+/* right: 67px; */
+}
+.projects div:nth-child(7){
+    width: 25%;
+    height: 33.5%;
+    background-color: #0000FF;
+    position: relative;
+    right: -41%;
+    top: -34.2%;
+}
+.projects div:nth-child(8){
+    width: 25%;
+    height: 33.5%;
+    background-color: #d11d53;
+    position: relative;
+    /* left: 34%; */
+    right: -16%;
+    top: 9.8%;
+}
