@@ -1186,7 +1186,6 @@ dt {
 }
 
 .text_side{
-    background-color: #7FFFD4;
     width: 40%;
     height: 74%;
     position: relative;
@@ -1202,4 +1201,18 @@ dt {
     position: absolute;
     top: 0;
     font-weight: 500;
+}
+input[type=text], select {
+    width: 66%;
+    padding: 12px 20px;
+    /* margin: 8px 0; */
+    display: inline-block;
+    border: 3px solid #ff4757;
+    border-radius: 30px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 80px;
+}
+input[type=text]:hover {
+    border: 3px solid #58afd1;
 }
