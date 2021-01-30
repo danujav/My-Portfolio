@@ -912,28 +912,7 @@ dt {
     opacity: 0.5;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    /*effect for the pictures*/
 .tiles {
     width: 25%;
     height: 33.5%;
@@ -1081,4 +1060,146 @@ dt {
     top: 29px;
     left: -665px;
     color: white;
+}
+
+    /*education section*/
+.educations{
+    height: 100vh;
+    width: 100%;
+}
+.educations h1{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    padding: 25px;
+}
+.educations h2{
+    font-size: 27px;
+    padding: 1px;
+    color: #ff4757;
+    position: relative;
+    top: -61px;
+    display: inline-block;
+    left: 38.2%;
+}
+
+    /*contact section*/
+.contact{
+    height: 140vh;
+    width: 100%;
+    background-color: black;
+}
+.contact h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 25px;
+    color: white;
+}
+.contact h2{
+    font-size: 27px;
+    padding: 1px;
+    color: #ff4757;
+    position: relative;
+    top: -680px;
+    display: inline-block;
+    left: 42.4%;
+}
+.my_information{
+    /*background-color: #7FFFD4;*/
+    width: 40%;
+    height: 74%;
+    position: relative;
+    left: -139px;
+    top: 27px;
+    display: inline-block;
+}
+.my_information h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 0;
+    color: white;
+    position: absolute;
+    top: 0;
+    font-weight: 500;
+}
+.my_information p{
+    position: absolute;
+    top: 80px;
+    color: white;
+    font-size: 29px;
+    font-weight: 100;
+}
+.my_information img:nth-child(3){
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 295px;
+}
+.my_information h2:nth-child(4){
+    color: white;
+    position: absolute;
+    left: 58px;
+    font-weight: 400;
+    top: 286px;
+    font-size: 25px;
+}
+.my_information h2:nth-child(4) span{
+    color: white;
+    font-weight: 100;
+}
+.my_information img:nth-child(5){
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 176px;
+    left: -7px;
+}
+.my_information h2:nth-child(6){
+    color: white;
+    position: absolute;
+    left: 58px;
+    font-weight: 400;
+    top: 403px;
+    font-size: 25px;
+}
+.my_information h2:nth-child(6) span{
+    color: white;
+    font-weight: 100;
+}
+.my_information img:nth-child(7){
+    height: 45px;
+    width: 42px;
+    position: absolute;
+    bottom: 62px;
+}
+.my_information h2:nth-child(8){
+    color: white;
+    position: absolute;
+    left: 58px;
+    font-weight: 400;
+    top: 520px;
+    font-size: 25px;
+}
+.my_information h2:nth-child(8) span{
+    color: white;
+    font-weight: 100;
+}
+
+.text_side{
+    background-color: #7FFFD4;
+    width: 40%;
+    height: 74%;
+    position: relative;
+    left: -31px;
+    top: 27px;
+    display: inline-block;
+}
+.text_side h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 0;
+    color: white;
+    position: absolute;
+    top: 0;
+    font-weight: 500;
 }
