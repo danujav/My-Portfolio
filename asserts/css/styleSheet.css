@@ -815,13 +815,6 @@ dt {
     position: absolute;
 }
 .projects div:nth-child(3){
-    /*width: 25%;
-    height: 33.5%;
-    position: relative;
-    top: 0;
-    left: -168px;*/
-
-
     width: 25%;
     height: 33.5%;
     position: relative;
@@ -840,12 +833,6 @@ dt {
     position: relative;
     top: 44%;
     left: -37.5%;
-
-   /* width: 25%;
-    height: 34.5%;
-    position: relative;
-    top: 148px;
-    left: -24px;*/
 }
 .projects div:nth-child(4) img{
     width: 100%;
@@ -892,10 +879,34 @@ dt {
     width: 25%;
     height: 33.5%;
     position: relative;
-    right: -19.9%;
-    top: 9.8%;
+    left: -115px;
+    top: 23.8%;
 }
 .projects div:nth-child(8) img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.projects div:nth-child(10){
+    width: 25%;
+    height: 33.5%;
+    position: relative;
+    left: -148px;
+    top: 23.8%;
+}
+.projects div:nth-child(10) img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.projects div:nth-child(12){
+    width: 25%;
+    height: 33.5%;
+    position: relative;
+    left: 83%;
+    top: -13.2%;
+}
+.projects div:nth-child(12) img{
     width: 100%;
     height: 100%;
     opacity: 0.5;
@@ -1057,9 +1068,17 @@ dt {
     background-color: #ff4757;
     cursor: pointer;
     position: relative;
-    top: -42px;
-    left: -564px;
+    top: 29px;
+    left: -632px;
     color: white;
 }
-
-
+#btn4{
+    width: 97px;
+    height: 21px;
+    background-color: #ff4757;
+    cursor: pointer;
+    position: relative;
+    top: 29px;
+    left: -665px;
+    color: white;
+}
