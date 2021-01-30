@@ -1085,7 +1085,7 @@ dt {
 
     /*contact section*/
 .contact{
-    height: 140vh;
+    height: 130vh;
     width: 100%;
     background-color: black;
 }
@@ -1100,7 +1100,7 @@ dt {
     padding: 1px;
     color: #ff4757;
     position: relative;
-    top: -680px;
+    top: -636px;
     display: inline-block;
     left: 42.4%;
 }
@@ -1187,10 +1187,10 @@ dt {
 
 .text_side{
     width: 40%;
-    height: 74%;
+    height: 13%;
     position: relative;
     left: -31px;
-    top: 27px;
+    top: -463px;
     display: inline-block;
 }
 .text_side h1{
@@ -1199,7 +1199,7 @@ dt {
     padding: 0;
     color: white;
     position: absolute;
-    top: 0;
+    top: -6px;
     font-weight: 500;
 }
 input[type=text], select {
@@ -1215,4 +1215,88 @@ input[type=text], select {
 }
 input[type=text]:hover {
     border: 3px solid #58afd1;
+}
+input[type=email], select {
+    width: 43%;
+    padding: 12px 20px;
+    /* margin: 8px 0; */
+    display: inline-block;
+    border: 3px solid #ff4757;
+    border-radius: 30px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 80px;
+    right: -65px;
+}
+input[type=email]:hover {
+    border: 3px solid #58afd1;
+}
+input[type=subject], select {
+    width: 112%;
+    padding: 12px 20px;
+     margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ff4757;
+    border-radius: 30px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 145px;
+    left: 0;
+}
+input[type=subject]:hover {
+    border: 3px solid #58afd1;
+}
+input[type=textarea], select {
+    width: 112%;
+    height: 165px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ff4757;
+    border-radius: 30px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 225px;
+    left: 0;
+}
+input[type=textarea]:hover {
+    border: 3px solid #58afd1;
+}
+.button{
+    width: 537px;
+    height: 21px;
+    background-color: #ff4757;
+    cursor: pointer;
+    position: absolute;
+    top: 428px;
+    left: 3px;
+    color: white;
+}
+
+    /*white_border*/
+.white_border{
+    width: 100px;
+    height: 7px;
+}
+
+    /*footer*/
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+}
+.footer h4{
+    color: white;
+    position: relative;
+    right: 0;
+    left: 33%;
+    top: 20px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 300;
+}
+.footer h4 span{
+    font-size: 28px;
+    font-weight: 400;
+    color: #ff4757;
 }
